@@ -1,0 +1,136 @@
+// 声明CSS常用变量
+asideWidth = 210px //logo部分宽度
+contentWidth = 85% //内容部分宽度
+borderStyle = 1px solid #e4e4e4 //边框样式
+mainColor = #379aff //蓝色主色值
+fontColor = #6c8299//字体色值
+fontBold = 600//字体磅数
+
+
+body
+    font-family "Lantinghei SC", "Open Sans", Arial
+    margin 0
+    // -webkit-font-smoothing antialiased
+    color fontColor
+    background-color #f9f9f9
+    line-height 1.4
+    font-size 14px
+
+li
+    list-style none
+
+ul
+    padding 0
+    margin 0
+
+a:visited
+    color initial
+a
+    text-decoration none
+    color initial
+
+input,button
+  outline none
+
+.color-main
+  color fontColor
+
+.el-dropdown-menu
+  border-radius 5px
+
+.trans-15
+  transition all .7s
+
+.el-checkbox__input.is-checked .el-checkbox__inner
+  background-color #ffffff
+  border-color #bfcbd9
+
+.el-checkbox__inner::after
+  border 2px solid #379aff
+  border-left 0
+  border-top 0
+  top 2px
+
+.el-dialog__title
+  font-weight 400
+  font-size 15px
+
+.el-dialog__body
+  color fontColor
+
+.v-modal
+  opacity .3
+
+.el-icon-close:before
+  font-family "iconfont"
+  content "\e661"
+
+.el-dialog__close
+  color #778ba1
+  font-size 32px
+  margin-top -5px
+
+.psy-popover-btn
+  padding 3px 15px
+
+.psy-popover-border-btn
+  border-color mainColor
+  color mainColor
+
+.psy-popover-border-btn:hover
+  opacity .8
+
+.el-popover
+  box-shadow none
+
+.el-date-table td
+  border-radius 50%
+
+.psy-pagination .el-pagination li,.psy-pagination .el-pagination button,.el-pagination--small .el-pager li, .el-pagination--small .el-pager li:last-child
+  line-height 28px
+  height 28px
+  min-width 28px
+  border-radius 50%
+  margin 0 5px
+
+.psy-pagination .el-pagination button
+  border 1px solid #e4e4e4
+
+.el-pager li.active
+  border 1px solid #e4e4e4!important
+  background-color #fff
+  color fontColor
+
+.el-pager li
+  background none
+
+.el-message-box
+  .el-message-box__header
+    .el-message-box__title
+      font-weight 400
+      color #666
+      font-size 15px
+    .el-message-box__close
+      font-size 32px
+  .el-message-box__content
+    margin-top 15px
+
+.el-pagination
+  .btn-prev
+    border-radius 20px!important
+    padding 5px 10px
+    .el-icon-arrow-left:before
+      content "上一页"
+      color #666
+  .btn-next
+    border-radius 20px!important
+    padding 5px 10px
+    .el-icon-arrow-right:before
+      content "下一页"
+      color #666
+
+.el-month-table td .cell, .el-year-table td .cell,.el-year-table td.current:not(.disabled) .cell,.el-year-table td.disabled .cell,.el-month-table td.current:not(.disabled) .cell,.el-month-table td.disabled .cell
+  border-radius 50px
+
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item:hover, .el-menu--horizontal.el-menu--dark .el-submenu .el-submenu-title:hover, .el-menu-item:hover
+  background-color #ececec
